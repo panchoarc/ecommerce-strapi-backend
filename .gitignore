@@ -83,6 +83,8 @@ nbproject
 public/uploads/*
 !public/uploads/.gitkeep
 .eslintignore
+config/middlewares.js
+aws-bucket.txt
 
 ############################
 # Node.js

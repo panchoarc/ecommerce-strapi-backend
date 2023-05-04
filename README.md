@@ -45,7 +45,7 @@ If you look .env.example, there are the strapi variables to change in order to r
 ## ⚠ Middlewares
 
 In case that images don't load when you enter into Media Library, the code is right below
-PD: You have to replace the AWS-BUCKET-NAME with your bucket that you provided into the .env.example or paste it directly
+PD: You have to create file in config/middlewares.js and replace the AWS-BUCKET-NAME with your bucket that you provided into the .env.example or paste it directly
 
 ```
 module.exports = [
